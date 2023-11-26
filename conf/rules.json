@@ -1,0 +1,21 @@
+{
+  "gaable": {
+    "xpath": "//*[@id=\"list_videos_common_videos_list\"]/div/section/div/*",
+    "fields": {
+      "id": {
+        "xpath": "//*[@id=\"list_videos_common_videos_list\"]/div/section/div/div[%d]/div/div[1]/a/@href",
+        "delimiter": "/",
+        "index": -2
+      },
+      "title": {
+        "xpath": "//*[@id=\"list_videos_common_videos_list\"]/div/section/div/div[%d]/div/div[2]/h6/a/text()"
+      },
+      "watch": {
+        "xpath": "//*[@id=\"list_videos_common_videos_list\"]/div/section/div/div[%d]/div/div[2]/p/text()[2]"
+      },
+      "stars": {
+        "xpath": "//*[@id=\"list_videos_common_videos_list\"]/div/section/div/div[%d]/div/div[2]/p/text()[3]"
+      }
+    }
+  }
+}
